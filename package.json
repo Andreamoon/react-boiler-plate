@@ -1,0 +1,67 @@
+{
+  "name": "react-boiler-plate",
+  "version": "1.0.0",
+  "description": "A repo to define react curtom configuration",
+  "main": "index.js",
+  "scripts": {
+    "start": "PUBLIC_URL=/ REACT_APP_VERSION=$(git describe --tag) SSW_ROOT=/ webpack-dev-server  --mode development --open",
+    "build:": "PUBLIC_URL=/ REACT_APP_VERSION=$(git describe --tag) SSW_ROOT=/ webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andreamoon/react-boiler-plate.git"
+  },
+  "author": "Andrea Lunetta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andreamoon/react-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/Andreamoon/react-boiler-plate#readme",
+  "dependencies": {
+    "@swc/cli": "^0.3.12",
+    "@swc/jest": "^0.2.36",
+    "@types/react": "^18.0.6",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-redux": "^7.0.9",
+    "@types/react-router-dom": "^5.3.2",
+    "@types/redux-actions": "2.6.1",
+    "@types/redux-logger": "^3.0.9",
+    "bootstrap": "^5.0.0",
+    "chart.js": "^4.5.1",
+    "css-loader": "6.8.1",
+    "dotenv": "^10.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.3.1 ",
+    "react-dom": "^18.3.1",
+    "react-icons": "4.9.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.1",
+    "redux-actions": "2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.1.0",
+    "rxjs": "^6.5.2",
+    "ssw-types": "git+ssh://git@github.com:starsellersworld/ssw-types.git#main",
+    "style-loader": "3.3.3",
+    "ts-node": "^10.9.2",
+    "typesafe-actions": "^5.1.0",
+    "typescript": "^5.7.3",
+    "url-loader": "^4.1.0",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@swc/core": "^1.16.12",
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.50.0",
+    "eslint-plugin-react": "^7.37.5",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0",
+    "jsdoc": "^4.0.2",
+    "mini-css-extract-plugin": "^2.10.0",
+    "swc-loader": "^0.2.7",
+    "ts-jest": "^29.4.6"
+  }
+}
